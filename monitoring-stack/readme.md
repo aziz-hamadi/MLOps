@@ -23,6 +23,9 @@ This monitoring stack provides:
 - **Node Exporter** - Host system metrics (CPU, memory, disk, network)
 - **DCGM Exporter** - NVIDIA GPU metrics (optional)
 
+### Blue Print : 
+
+<img src="res/monitoring stack.gif" alt="monitoring stack" width = "70%">
 
 ---
 
@@ -117,7 +120,7 @@ scrape_configs:
 
 3. **Restart Prometheus:**
 
-<img src="res/image-1.png" alt="Prometheus Targets" style="max-width: 100%; height: auto;">
+<img src="res/image-1.png" alt="Prometheus" style="max-width: 100%; height: auto;">
 
 ### Verify Metrics Endpoints
 
@@ -200,7 +203,7 @@ Import these community dashboards for instant monitoring:
 ---
 ## Some beautiful dashboards captured from Grafana:
 
-<img src="res/image-3.png" alt="Prometheus Targets" style="max-width: 100%; height: auto;">
-<img src="res/image-4.png" alt="Prometheus Targets" style="max-width: 100%; height: auto;">
-<img src="res/image-5.png" alt="Prometheus Targets" style="max-width: 100%; height: auto;">
+<img src="res/image-3.png" alt="Grafana" style="max-width: 100%; height: auto;">
+<img src="res/image-4.png" alt="Grafana" style="max-width: 100%; height: auto;">
+<img src="res/image-5.png" alt="Grafana" style="max-width: 100%; height: auto;">
 ---
